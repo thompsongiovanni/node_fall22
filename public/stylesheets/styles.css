@@ -4,10 +4,10 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro';
 }
-body{
+body {
     background-color:darksalmon;
 }
-.todo-container{
+.todo-container {
     color: white;
     position: absolute;
     top: 50%;
@@ -21,20 +21,20 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.todo{
+.todo {
     width: 500px;
 }
-.todo-container h2{
+.todo-container h2 {
     padding: 10px;
     font-size: 2em;
 }
-.todo-header input{
+.todo-header input {
     width: 92%;
     border: none;
     border-radius: 5px;
     height: 20px;
 }
-.todo-header button{
+.todo-header button {
     color: white;
     border: none;
     border-radius: 50%;
@@ -42,10 +42,10 @@ body{
     padding: 5px;
     background-color: rgb(51, 212, 100);
 }
-.todo-container ul{
+.todo-container ul {
     list-style: none;
 }
-.todo-list-item{
+.todo-list-item {
     padding: 10px;
     margin-top: 10px;
     border: none;
@@ -54,35 +54,41 @@ body{
     display: flex;
     flex-direction: row;
 }
-.todo-list-item form{
+.todo-list-item form {
     width: 100%;
     display: flex;
 }
-.todo-list-item input{
+.todo-list-item input {
 
 }
-.todo-list-item button{
+.todo-list-item button {
     
 }
-.todo-list-item .cancel{
+.todo-list-item .cancel {
     
 }
-.todo-list-item div{
+.todo-list-item div {
     flex-grow: 2;
 }
-.todo-list-item .edit{
+.todo-list-item .edit {
     color: rgb(143, 233, 58);
     margin-right: 10px;
     cursor: pointer; 
     text-decoration: none;
 }
-.todo-list-item .remove{
+.todo-list-item .remove {
     color: rgb(243, 96, 96);
     margin-right: 5px;
     cursor: pointer; 
     text-decoration: none;
 }
 
-.todo-list-item .strike-through{
+.todo-list-item .strike-through {
     text-decoration: line-through;
+}
+
+@media only screen and (min-width: 400px) {
+    img {
+        background-image: url('comicData.img');
+    }
 }
